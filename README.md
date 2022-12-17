@@ -1,2 +1,1 @@
-# OLXSite
-copy of OLX marketplace
+# OLX
