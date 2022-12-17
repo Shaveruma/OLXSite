@@ -1,7 +1,13 @@
 {
  "users":[
-
-    
+    {      
+      "id": 1,
+      "name": "Dima",
+      "sirname": "Stepurenko",
+      "photo_url": "https://content2.rozetka.com.ua/goods/images/big/103202921.jpg",
+      "balance": 1500
+    }
  ]
 
 }
+
