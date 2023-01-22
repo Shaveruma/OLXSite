@@ -1,4 +1,4 @@
-{
+ {
  "users":[
     {      
       "id": 1,
@@ -7,7 +7,57 @@
       "photo_url": "https://content2.rozetka.com.ua/goods/images/big/103202921.jpg",
       "balance": 1500
     }
- ]
+ ],
+"products":[
+  {
+  "id": 1,
+    "name":"Led Display",
+    "description":"Can Display 2 lines X 16 characters",
+    "price":10,
+    "author_id":1,
+    "photo_url":"https://content1.rozetka.com.ua/goods/images/big/32122930.jpg"
+  },
+  {
+    "id":2,
+    "name":"Arduino micro",
+    "description":"The ATmega32U4 has built-in USB communication",
+    "price":52,
+    "author_id":1,
+    "photo_url":"https://a.pololu-files.com/picture/0J4501.1200.jpg?034069a3d836798cdce8ab63b98165c8"
+  },
+  {
+    "id":3,
+    "name":"Arduino Uno",
+    "description":"Arduino UNO is a microcontroller board based on the ATmega328P.",
+    "price":150,
+    "author_id":1,
+    "photo_url":"https://upload.wikimedia.org/wikipedia/commons/3/38/Arduino_Uno_-_R3.jpg"
+  },
+  {
+    "id":4,
+    "name": "Servo SG90",
+    "description":"A Servo Motor is a small device that has an output shaft.",
+    "price":15,
+    "author_id":2,
+    "photo_url":"https://uamper.com/image/cache/data/Сервомотор%20SG90-500x500.jpg"
+  },
+  {
+    "id":5,
+    "name":"Arduino Mega",
+    "description":"Arduino board is an open-source microcontroller board which is based on Atmega 2560",
+    "price":90,
+    "author_id":2,
+    "photo_url":"https://ast3d.com.ua/wp-content/uploads/2017/09/2145-1021_1_AST3D.jpg"
+  },
+  {
+    "id":6,
+    "name":"Themperature Sensor LM35DZ",
+    "description":"The LM35DZ is a linear temperature sensor that comes directly calibrated in Celsius",
+    "price":5,
+    "author_id":2,
+    "photo_url":"https://linuxhint.com/wp-content/uploads/2022/03/list-arduino-compatible-temperature-sensors-01.jpg"
+  }
+]
 
 }
 
