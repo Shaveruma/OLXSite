@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robocode Marketplace</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Robocode Marketplace</h1>
+        <div id="cart">
+            <button id="cart-button" onclick="openCart()">
+                <img src="img/cart.png" alt="cart">
+            </button>
+            <div id="cart-products" class="hide">
+                Cart is empty
+            </div>
+        </div>
+    </header>
+  <main>
+        <div id="products-grid">
+            <div class="product">
+            <h2 class="product-name">LED display</h2>
+            <img class="product-photo" src="https://content1.rozetka.com.ua/goods/images/big/32122930.jpg" alt="LED display">
+            <p class="product-price"><b>Price: </b>92$</p>
+            <p class="product-description"><b>Description: </b>Can display 2-lines X 16-characters. Operate with 5V DC.</p>
+            <a href="#">Seller profile</a>
+            <button onclick="addProductToCart(1)">Buy</button>
+        </div><div class="product">
+            <h2 class="product-name">Arduino UNO</h2>
+            <img class="product-photo" src="https://upload.wikimedia.org/wikipedia/commons/3/38/Arduino_Uno_-_R3.jpg" alt="Arduino UNO">
+            <p class="product-price"><b>Price: </b>180$</p>
+            <p class="product-description"><b>Description: </b>Brand new and high quality.</p>
+            <a href="#">Seller profile</a>
+            <button onclick="addProductToCart(2)">Buy</button>
+        </div><div class="product">
+            <h2 class="product-name">Arduino micro</h2>
+            <img class="product-photo" src="https://a.pololu-files.com/picture/0J4501.1200.jpg?034069a3d836798cdce8ab63b98165c8" alt="Arduino micro">
+            <p class="product-price"><b>Price: </b>300$</p>
+            <p class="product-description"><b>Description: </b>The ATmega32U4 has built-in USB communication</p>
+            <a href="#">Seller profile</a>
+            <button onclick="addProductToCart(3)">Buy</button>
+        </div><div class="product">
+            <h2 class="product-name">RGB</h2>
+            <img class="product-photo" src="https://viyar.ua/store/Items/photos/ph90731.jpg" alt="RGB">
+            <p class="product-price"><b>Price: </b>92$</p>
+            <p class="product-description"><b>Description: </b>Can make color party.</p>
+            <a href="#">Seller profile</a>
+            <button onclick="addProductToCart(4)">Buy</button>
+        </div><div class="product">
+            <h2 class="product-name">Resistor 10k Ohm</h2>
+            <img class="product-photo" src="https://www.westfloridacomponents.com/mm5/graphics/N12/WW592.jpg" alt="Resistor 10k Ohm">
+            <p class="product-price"><b>Price: </b>180$</p>
+            <p class="product-description"><b>Description: </b>Can resist the voltage. Super cool.</p>
+            <a href="#">Seller profile</a>
+            <button onclick="addProductToCart(5)">Buy</button>
+        </div><div class="product">
+            <h2 class="product-name">7-Segment Display</h2>
+            <img class="product-photo" src="https://cdn.sparkfun.com//assets/parts/1/2/4/3/08530-05-L.jpg" alt="7-Segment Display">
+            <p class="product-price"><b>Price: </b>300$</p>
+            <p class="product-description"><b>Description: </b>Epic.</p>
+            <a href="#">Seller profile</a>
+            <button onclick="addProductToCart(6)">Buy</button>
+        </div></div>
+    </main>
+</body>
+<script src="js.js" defer></script>
+</html>
